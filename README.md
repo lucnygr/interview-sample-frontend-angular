@@ -19,3 +19,10 @@ A product has:
 Parts can be omitted for now.
 
 Show an error message if the user-input is not valid.
+
+Implement the ProductManagementComponent.saveProduct() to log the new Product to the console.
+
+# Task 3
+
+How would you rework the ProductEditComponent to use a ControlValueAccessor?
+Refactor also the ProductManagementComponent to work with the changes.
