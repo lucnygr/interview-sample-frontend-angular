@@ -33,4 +33,8 @@ build/
 .vscode/
 
 ### npm
- /node_modules
+node_modules
+
+### Angular
+.angular
+dist
