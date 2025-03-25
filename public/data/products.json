@@ -1,0 +1,17 @@
+[
+  {
+  "id": 1,
+  "productName": "Product1",
+  "status": "INACTIVE"
+  },
+  {
+    "id": 2,
+    "productName": "Product2",
+    "status": "ACTIVE"
+  },
+  {
+    "id": 3,
+    "productName": "Product3",
+    "status": "IN_DESIGN"
+  }
+]
