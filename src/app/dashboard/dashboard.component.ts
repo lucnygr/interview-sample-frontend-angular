@@ -4,12 +4,14 @@ import {ProductService} from '../shared/service/product.service';
 import {ProductDto} from '../shared/service/product-dto-model';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
 import {AsyncPipe} from '@angular/common';
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
   imports: [
-    AsyncPipe
+    AsyncPipe,
+    RouterLink
   ],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.scss'
