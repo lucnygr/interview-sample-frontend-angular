@@ -1,17 +1,42 @@
 [
   {
-  "id": 1,
-  "productName": "Product1",
-  "status": "INACTIVE"
+    "id": 1,
+    "productName": "Product1",
+    "status": "INACTIVE",
+    "parts": [
+      {
+        "id:": 11,
+        "name": "Part1"
+      },
+      {
+        "id:": 12,
+        "name": "Part2"
+      }
+    ]
   },
   {
     "id": 2,
     "productName": "Product2",
-    "status": "ACTIVE"
+    "status": "ACTIVE",
+    "parts": [
+      {
+        "id:": 21,
+        "name": "Part1"
+      },
+      {
+        "id:": 22,
+        "name": "Part2"
+      },
+      {
+        "id:": 23,
+        "name": "Part3"
+      }
+    ]
   },
   {
     "id": 3,
     "productName": "Product3",
-    "status": "IN_DESIGN"
+    "status": "IN_DESIGN",
+    "parts": []
   }
 ]

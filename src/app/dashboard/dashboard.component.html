@@ -1,18 +1,7 @@
 <h2>My Products</h2>
 
-<table>
-  <thead>
-  <tr>
-    <th>ID</th>
-    <th>Product Name</th>
-  </tr>
-  </thead>
-  <tbody>
+<ul>
     @for (product of products$ | async; track product) {
-      <tr>
-        <td>{{ product.id }}</td>
-        <td>{{ product.productName }}</td>
-      </tr>
+        <li>{{ product.productName }} - {{product.parts.length}} Parts
     }
-  </tbody>
-</table>
+</ul>
